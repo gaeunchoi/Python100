@@ -1,7 +1,9 @@
 # Python100제 클론 코딩
 
 ### 1. 웹 스크래핑(Web Scraping) 
-requests 모듈 사용
+- import requests
+- from bs4 import BeautifulSoup
+- from selenium import webdriver
 
 
 ### 2. 데이터 정리 및 그래프 시각화

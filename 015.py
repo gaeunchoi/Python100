@@ -56,10 +56,10 @@ def download_bok_statistice_by_keyword():
         result_file.write("%s, %s, %s" % (date[i], value[i], change[i]))
         result_file.write('\n')
 
-        result_file.close()
-        print("키워드 '%s'에 대한 통계 지표를 저장하였습니다." % keyword)
+    result_file.close()
+    print("키워드 '%s'에 대한 통계 지표를 저장하였습니다." % keyword)
 
-        return date, value, change                      # 함수 리턴값을 (날짜, 통계값, 변화율) 형식의 튜플로 정의 -> 튜플의 원소는 리스트 자료형이야
+    return date, value, change                      # 함수 리턴값을 (날짜, 통계값, 변화율) 형식의 튜플로 정의 -> 튜플의 원소는 리스트 자료형이야
 
 # 함수 실행 -> 'CD수익률' 통게지표를 별도로 검색 -> CSV 파일로 저장
 result = download_bok_statistice_by_keyword()

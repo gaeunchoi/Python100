@@ -6,3 +6,5 @@ print(df.head(), '\n')
 
 boxplot = df.plot(kind='box')
 plt.savefig('./output/boxplot.png')
+
+plt.show()

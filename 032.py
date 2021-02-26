@@ -3,7 +3,7 @@ from collections import Counter
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-text = open('./data/2018_president_message.txt', encoding='utf-8').read()
+text = open('./data/2018_president_message.txt', encoding='UTF-8').read()
 
 # 한글 형태소 분석
 engin = Hannanum()
